@@ -25,6 +25,18 @@ a {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /********************************** header section ************************/
 .site_header {
   background: #fff;
@@ -35,11 +47,12 @@ a {
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
+ 
 }
 .header_nav_list {
   display: flex;
   margin-right: 40px;
-  gap: 10px;
+  gap: 30px;
 }
 .header_right_top {
   display: flex;
@@ -64,4 +77,49 @@ a {
   border: none;
   border-bottom: 1px solid #333333;
   outline: none;
+}
+
+/**************************************** main section  ***********************************/
+
+.main_top_section {
+  padding-top: 170.46px;
+  padding-bottom: 185px;
+  background-image: url(../images/watch_back.png);
+  background-size: 587px 565px;
+  background-repeat: no-repeat;
+
+  background-position: calc(50% + 630px);
+}
+
+.main_section_title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.main_top_desc {
+  width: 450px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.main_top_btn {
+  width: 260px;
+  height: 51px;
+  background: #ea625c;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+ 
 }
