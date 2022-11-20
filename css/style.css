@@ -47,7 +47,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
- 
+  margin-bottom: 85px;
 }
 .header_nav_list {
   display: flex;
@@ -83,12 +83,12 @@ a {
 
 .main_top_section {
   padding-top: 170.46px;
-  padding-bottom: 185px;
+  padding-bottom: 107px;
   background-image: url(../images/watch_back.png);
   background-size: 587px 565px;
   background-repeat: no-repeat;
-
-  background-position: calc(50% + 630px);
+  background-position: calc(50% + 620px);
+  border-bottom: 2px solid #dddddd;
 }
 
 .main_section_title {
@@ -121,5 +121,114 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   border: none;
- 
+}
+
+/********************************************* card section  *******************************/
+.cards_section {
+  padding-top: 68px;
+}
+.cards_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.card {
+  width: 280px;
+}
+
+.card_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+.card_desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.card_link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #ea625c;
+}
+.card_link::before {
+  content: "";
+  display: inline-block;
+  align-items: center;
+  width: 40px;
+  border: 2px solid #ea625c;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.indicator {
+  display: flex;
+}
+.indicator_item {
+  width: 8px;
+  height: 8px;
+  background: #dddddd;
+  margin-right: 10px;
+}
+
+.maqtov_wrapper {
+  display: flex;
+  padding: 70px 30px;
+}
+.maqtov_article {
+  margin-right: 240px;
+}
+
+.maqtov_title {
+  width: 380px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 176.6px;
+  margin-bottom: 30px;
+}
+
+/************************************************** footer ***************************************/
+
+.site_footer {
+  display: flex;
+
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.footer_article_title {
+  width: 490px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer_article_desc {
+  width: 450px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  border-left: 3px solid #fff;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.footer_article{
+    margin-left: 570px;
 }
